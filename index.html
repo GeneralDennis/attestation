@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description">
+  <title> </title>
+  <link href="./assets/css/app.f3e4da538cbd128ef786.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-l">
+        <a class="header-logo" href="/"></a>
+        <nav class="header-l__nav">
+          <ul class="menu header-l__nav-menu">
+            <li class="menu-item menu-item__projects">Проекты</li>
+            <li class="menu-item"><a class="menu-item__link" href="/#tasks_for-me">Задачи для меня</a></li>
+            <li class="menu-item"><a class="menu-item__link" href="/#knowledge_base">База знаний</a></li>
+            <li class="menu-item"><a class="menu-item__link" href="/#tasks">Все задачи</a></li>
+            <li class="menu-item"><a class="menu-item__link" href="/#viewed">Просмотренные</a></li>
+          </ul>
+        </nav>
+        <div class="header-l__nav--hide"><span></span><span></span><span></span></div>
+      </div>
+      <div class="header-r">
+        <nav class="header-r__nav">
+          <ul class="menu header-r__nav-menu">
+            <li class="menu-item menu-item__favorite"></li>
+            <li class="menu-item menu-item__notify"></li>
+            <li class="menu-item menu-item__user">
+              <div class="user-avatar"></div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="projects-wrapper">
+        <ul class="projects-items">
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block projects-item__block--active">4</div>
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block projects-item__block--active">4</div>
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block">4</div>
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block projects-item__block--active">4</div>
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block projects-item__block--active">4</div>
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+          <li class="projects-item">
+            <div class="items-l">
+              <div class="projects-item__star"></div>
+              <div class="projects-item__text">RS Digital</div>
+            </div>
+            <div class="items-r">
+              <div class="projects-item__block projects-item__block--active">4</div>
+              <div class="projects-item__block">22</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="user">
+        <div class="user-main"><a class="user-link user-link__profile" href="#">Профиль</a><a class="user-link user-link__stats" href="#">Статистика</a><a class="user-link user-link__tokens" href="#">Токены</a><a class="user-link user-link__api" href="#">API</a></div>
+        <div class="user-footer"><a class="user-link user-link__logout" href="#">Выход</a></div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <main class="main">
+      <h1 class="title">Мои задачи</h1>
+      <div class="flex">
+        <div class="tasks-container">
+          <div class="task-block">
+            <div class="task-block__group task-block__group--l">
+              <p class="task-block__title"><span>Риск культура</span>&#32; — Сформировать мотивацию к дальнейшему развитию</p>
+              <div class="task-block__group-select">
+                <div class="js-progress">
+                  <div class="select select__selected select__selected--progress">
+                    <p>В работе</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">В работе</div>
+                    <div class="select select__paused">Пауза</div>
+                    <div class="select select__done">Сделан</div>
+                    <div class="select select__new">Новый</div>
+                    <div class="select select__need-review">Нужна проверка</div>
+                    <div class="select select__ok">Все ок</div>
+                  </div>
+                </div>
+                <div class="js-developer">
+                  <div class="select select__selected select__selected--developer">
+                    <p>Константин Сергиенко</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Константин Сергиенко</div>
+                    <div class="select select__paused">Семен Петров</div>
+                    <div class="select select__done">Иван Обломов</div>
+                    <div class="select select__new">Руслан Иванов</div>
+                    <div class="select select__need-review">Дмитрий Крючков</div>
+                    <div class="select select__ok">Олег Медведев</div>
+                  </div>
+                </div>
+                <div class="js-prior">
+                  <div class="select select__selected select__selected--prior">
+                    <p>Максимум</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Максимум</div>
+                    <div class="select select__paused">Низкий</div>
+                    <div class="select select__done">Высокий</div>
+                    <div class="select select__new">Средний</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block__group task-block__group--r">
+              <div class="task-block__group-actions">
+                <div class="group-actions__date">06.05.2020</div>
+                <div class="group-actions__actions">
+                  <div class="group-actions__actions--message">0</div>
+                  <div class="group-actions__actions--favorites">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="task-block">
+            <div class="task-block__group task-block__group--l">
+              <p class="task-block__title"><span>Риск культура</span>&#32; — Сформировать мотивацию к дальнейшему развитию</p>
+              <div class="task-block__group-select">
+                <div class="js-progress">
+                  <div class="select select__selected select__selected--progress">
+                    <p>В работе</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">В работе</div>
+                    <div class="select select__paused">Пауза</div>
+                    <div class="select select__done">Сделан</div>
+                    <div class="select select__new">Новый</div>
+                    <div class="select select__need-review">Нужна проверка</div>
+                    <div class="select select__ok">Все ок</div>
+                  </div>
+                </div>
+                <div class="js-developer">
+                  <div class="select select__selected select__selected--developer">
+                    <p>Константин Сергиенко</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Константин Сергиенко</div>
+                    <div class="select select__paused">Семен Петров</div>
+                    <div class="select select__done">Иван Обломов</div>
+                    <div class="select select__new">Руслан Иванов</div>
+                    <div class="select select__need-review">Дмитрий Крючков</div>
+                    <div class="select select__ok">Олег Медведев</div>
+                  </div>
+                </div>
+                <div class="js-prior">
+                  <div class="select select__selected select__selected--prior">
+                    <p>Максимум</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Максимум</div>
+                    <div class="select select__paused">Низкий</div>
+                    <div class="select select__done">Высокий</div>
+                    <div class="select select__new">Средний</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block__group task-block__group--r">
+              <div class="task-block__group-actions">
+                <div class="group-actions__date">06.05.2020</div>
+                <div class="group-actions__actions">
+                  <div class="group-actions__actions--message">0</div>
+                  <div class="group-actions__actions--favorites">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="task-block">
+            <div class="task-block__group task-block__group--l">
+              <p class="task-block__title"><span>Риск культура</span>&#32; — Сформировать мотивацию к дальнейшему развитию</p>
+              <div class="task-block__group-select">
+                <div class="js-progress">
+                  <div class="select select__selected select__selected--progress">
+                    <p>В работе</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">В работе</div>
+                    <div class="select select__paused">Пауза</div>
+                    <div class="select select__done">Сделан</div>
+                    <div class="select select__new">Новый</div>
+                    <div class="select select__need-review">Нужна проверка</div>
+                    <div class="select select__ok">Все ок</div>
+                  </div>
+                </div>
+                <div class="js-developer">
+                  <div class="select select__selected select__selected--developer">
+                    <p>Константин Сергиенко</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Константин Сергиенко</div>
+                    <div class="select select__paused">Семен Петров</div>
+                    <div class="select select__done">Иван Обломов</div>
+                    <div class="select select__new">Руслан Иванов</div>
+                    <div class="select select__need-review">Дмитрий Крючков</div>
+                    <div class="select select__ok">Олег Медведев</div>
+                  </div>
+                </div>
+                <div class="js-prior">
+                  <div class="select select__selected select__selected--prior">
+                    <p>Максимум</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Максимум</div>
+                    <div class="select select__paused">Низкий</div>
+                    <div class="select select__done">Высокий</div>
+                    <div class="select select__new">Средний</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block__group task-block__group--r">
+              <div class="task-block__group-actions">
+                <div class="group-actions__date">06.05.2020</div>
+                <div class="group-actions__actions">
+                  <div class="group-actions__actions--message">0</div>
+                  <div class="group-actions__actions--favorites">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="task-block">
+            <div class="task-block__group task-block__group--l">
+              <p class="task-block__title"><span>Риск культура</span>&#32; — Сформировать мотивацию к дальнейшему развитию</p>
+              <div class="task-block__group-select">
+                <div class="js-progress">
+                  <div class="select select__selected select__selected--progress">
+                    <p>В работе</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">В работе</div>
+                    <div class="select select__paused">Пауза</div>
+                    <div class="select select__done">Сделан</div>
+                    <div class="select select__new">Новый</div>
+                    <div class="select select__need-review">Нужна проверка</div>
+                    <div class="select select__ok">Все ок</div>
+                  </div>
+                </div>
+                <div class="js-developer">
+                  <div class="select select__selected select__selected--developer">
+                    <p>Константин Сергиенко</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Константин Сергиенко</div>
+                    <div class="select select__paused">Семен Петров</div>
+                    <div class="select select__done">Иван Обломов</div>
+                    <div class="select select__new">Руслан Иванов</div>
+                    <div class="select select__need-review">Дмитрий Крючков</div>
+                    <div class="select select__ok">Олег Медведев</div>
+                  </div>
+                </div>
+                <div class="js-prior">
+                  <div class="select select__selected select__selected--prior">
+                    <p>Максимум</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Максимум</div>
+                    <div class="select select__paused">Низкий</div>
+                    <div class="select select__done">Высокий</div>
+                    <div class="select select__new">Средний</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block__group task-block__group--r">
+              <div class="task-block__group-actions">
+                <div class="group-actions__date">06.05.2020</div>
+                <div class="group-actions__actions">
+                  <div class="group-actions__actions--message">0</div>
+                  <div class="group-actions__actions--favorites">2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="task-block">
+            <div class="task-block__group task-block__group--l">
+              <p class="task-block__title"><span>Риск культура</span>&#32; — Сформировать мотивацию к дальнейшему развитию</p>
+              <div class="task-block__group-select">
+                <div class="js-progress">
+                  <div class="select select__selected select__selected--progress">
+                    <p>В работе</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">В работе</div>
+                    <div class="select select__paused">Пауза</div>
+                    <div class="select select__done">Сделан</div>
+                    <div class="select select__new">Новый</div>
+                    <div class="select select__need-review">Нужна проверка</div>
+                    <div class="select select__ok">Все ок</div>
+                  </div>
+                </div>
+                <div class="js-developer">
+                  <div class="select select__selected select__selected--developer">
+                    <p>Константин Сергиенко</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Константин Сергиенко</div>
+                    <div class="select select__paused">Семен Петров</div>
+                    <div class="select select__done">Иван Обломов</div>
+                    <div class="select select__new">Руслан Иванов</div>
+                    <div class="select select__need-review">Дмитрий Крючков</div>
+                    <div class="select select__ok">Олег Медведев</div>
+                  </div>
+                </div>
+                <div class="js-prior">
+                  <div class="select select__selected select__selected--prior">
+                    <p>Максимум</p>
+                  </div>
+                  <div class="select-list">
+                    <div class="select select__in-progress">Максимум</div>
+                    <div class="select select__paused">Низкий</div>
+                    <div class="select select__done">Высокий</div>
+                    <div class="select select__new">Средний</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block__group task-block__group--r">
+              <div class="task-block__group-actions">
+                <div class="group-actions__date">06.05.2020</div>
+                <div class="group-actions__actions">
+                  <div class="group-actions__actions--message">0</div>
+                  <div class="group-actions__actions--favorites">2</div>
+                </div>
+              </div>
+            </div>
+          </div><button class="tasks-button">Загрузить еще</button></div>
+        <aside class="aside aside-tasks">
+          <div class="aside-filter">
+            <div class="aside-filter__header">Сортировать:<a class="aside-filter__link">по дате</a></div>
+            <div class="aside-filter__main">
+              <div class="aside-filter__item aside-filter__item--z1">Проект
+                <div class="filter-content">
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Максимум</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Высокий</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Средний</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Минимальный</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Низкий</div>
+                </div>
+              </div>
+              <div class="aside-filter__item aside-filter__item--z2">Статус
+                <div class="filter-content">
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Максимум</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Высокий</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Средний</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Минимальный</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Низкий</div>
+                </div>
+              </div>
+              <div class="aside-filter__item aside-filter__item--z3 aside-filter__item--disabled">Приоритет
+                <div class="filter-content">
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Максимум</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Высокий</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Средний</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Минимальный</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Низкий</div>
+                </div>
+              </div>
+              <div class="aside-filter__item aside-filter__item--z4">Автор
+                <div class="filter-content">
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Максимум</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Высокий</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Средний</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Минимальный</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Низкий</div>
+                </div>
+              </div>
+              <div class="aside-filter__item aside-filter__item--z5">Участие
+                <div class="filter-content">
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Максимум</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Высокий</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Средний</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Минимальный</div>
+                  <div class="filter-content__item">
+                    <div class="radio"></div>Низкий</div>
+                </div>
+              </div>
+            </div>
+          </div><button class="aside-filter__button tasks-button">Очистить фильтр</button></aside>
+      </div>
+      <div class="flex">
+        <section class="section">
+          <article class="article tutorials">
+            <h2 class="tutorials-title">Краткое обучение</h2>
+            <p class="article-text">Банки все больше осознают важность риск-культуры как области, необходимой для эффективного управления рисками. Понимание риск-культуры развивалось от ее восприятия как необходимости выполнять требования регулятора в области рисков до сбалансированной
+              системы, в центре которой находится оптимальное для организации соотношение риска и доходности, а если наклонить линию, то круг начинает скользить вниз и кажется, что тот, который справа, вот-вот упадёт»</p>
+            <p class="article-text article-text--s">«Понимание риск-культуры развивалось от ее восприятия как необходимости выполнять требования регулятора в области рисков до сбалансированной системы»</p>
+            <p class="article-text article-text--ls">На ранней стадии я поймал себя на мысли, что большинство примеров — это простые сайты. Идея обычно соответствует следующему формату: «Посмотрите на эти линии и 2 окружности: если предположить, что это набор масштабов, то окружность, которая
+              более удалена от центра, перевешивает, а если наклонить линию, то круг начинает скользить вниз и кажется, что тот, который справа, вот-вот упадёт».</p>
+          </article>
+          <article class="article general-info">
+            <h2 class="general-info__title">Общая информация</h2>
+            <p class="article-text article-text--ls">Если ранее бизнес рассматривал риск-подразделения как сдерживающий фактор развития, то сейчас они выступают в роли партнеров. Формальными правилами достичь такого результата вряд ли возможно, требуется соответствующая корпоративная культура.</p>
+            <div class="article-figure">
+              <div class="article-image"></div>
+              <div class="article-caption">
+                <p>Риск-культура - это устоявшиеся нормы поведения сотрудников, направленные на выявление рисков и управление ими.</p>
+              </div>
+            </div>
+            <h3 class="article-subtitle">Какие могут быть задачи у данного решения:</h3>
+            <ul class="article-list">
+              <li class="article-list__item article-list__item--ul">Сформировать у линейных руководителей набор управленческих знаний и навыков, необходимых для эффективного выполнения ими своих обязанностей в соответствии со стратегией Банка и корпоративной моделью компетенций;</li>
+              <li class="article-list__item article-list__item--ul">Сформировать мотивацию к дальнейшему развитию;</li>
+              <li class="article-list__item article-list__item--ul article-list__item--lh">Выявить высоко-потенциальных руководителей Банка для дальнейшего карьерного развития.</li>
+            </ul>
+            <h2 class="general-info__title general-info__title--mt44">Для чего это нужно?</h2>
+            <ol class="article-list article-list--pl20">
+              <li class="article- article-list__item--ol">Команда и управление людьми;</li>
+              <li class="article- article-list__item--ol">Побуждение, мотивирование подчиненных и коллег к участию в улучшениях;</li>
+              <li class="article- article-list__item--ol">Эффективное управление людьми;</li>
+              <li class="article- article-list__item--ol">Определение факторов, влияющих на вовлеченность в коллективе использование управленческих инструментов / рычагов влияния на эти факторы; подбор адекватных / убедительных тезисов и аргументов для различных целевых аудиторий влияния; воодушевление
+                людей в личном общении;</li>
+              <li class="article- article-list__item--ol">Построение эффективных команд, лидерство и личная эффективность;</li>
+              <li class="article- article-list__item--ol">Принятие на себя лидерства и выбор стиля лидерства;</li>
+              <li class="article- article-list__item--ol">Фиксация и анализ своих эмоций с целью повышения эффективности профессиональной деятельности;</li>
+              <li class="article- article-list__item--ol">Навык постоянного личностного развития,</li>
+            </ol>
+          </article>
+          <article class="article video-lessons">
+            <h2 class="video-lessons__title">Видео-уроки</h2>
+            <div class="video-lessons__container">
+              <div class="video-lesson"><video class="video-lesson__video" id="video1" width="100%" height="100%" poster="./assets/sections/images/poster1.png"><source src="./assets/sections/tutorial/mops.mp4"></video>
+                <div class="video-lesson__controls" id="play-btn1"></div>
+                <div class="video-lesson__timer">10:40</div>
+                <div class="video-lesson__caption">Команда и управление людьми</div>
+              </div>
+              <div class="video-lesson"><video class="video-lesson__video" id="video2" width="100%" height="100%" poster="./assets/sections/images/poster2.png"><source src="./assets/sections/tutorial/mops.mp4"></video>
+                <div class="video-lesson__controls" id="play-btn2"></div>
+                <div class="video-lesson__timer">10:40</div>
+                <div class="video-lesson__caption">Мотивирование подчиненных и коллег к участию в улучшениях</div>
+              </div>
+              <div class="video-lesson"><video class="video-lesson__video" id="video3" width="100%" height="100%" poster="./assets/sections/images/poster3.png"><source src="./assets/sections/tutorial/mops.mp4"></video>
+                <div class="video-lesson__controls" id="play-btn3"></div>
+                <div class="video-lesson__timer">10:40</div>
+                <div class="video-lesson__caption">Навык постоянного личностного развития</div>
+              </div>
+              <div class="video-lesson"><video class="video-lesson__video" id="video4" width="100%" height="100%" poster="./assets/sections/images/poster4.png"><source src="./assets/sections/tutorial/mops.mp4"></video>
+                <div class="video-lesson__controls" id="play-btn4"></div>
+                <div class="video-lesson__timer">10:40</div>
+                <div class="video-lesson__caption">Принятие на себя лидерства</div>
+              </div>
+              <div class="video-lesson"><video class="video-lesson__video" id="video5" width="100%" height="100%" poster="./assets/sections/images/poster5.png"><source src="./assets/sections/tutorial/mops.mp4"></video>
+                <div class="video-lesson__controls" id="play-btn5"></div>
+                <div class="video-lesson__timer">10:40</div>
+                <div class="video-lesson__caption">Личная эффективность</div>
+              </div>
+              <div class="video-lesson"><video class="video-lesson__video" id="video6" width="100%" height="100%" poster="./assets/sections/images/poster6.png"><source src="./assets/sections/tutorial/mops.mp4"></video>
+                <div class="video-lesson__controls" id="play-btn6"></div>
+                <div class="video-lesson__timer">10:40</div>
+                <div class="video-lesson__caption">Факторы влияющие на вовлеченность в коллективе</div>
+              </div>
+            </div>
+          </article>
+          <article class="article reviews">
+            <div class="reviews">
+              <h2 class="reviews-title">Оставьте отзыв о вашем использовании!</h2>
+              <form class="reviews-form">
+                <div class="reviews-form__text"><textarea class="reviews-form__textarea"></textarea>
+                  <div class="reviews-form__textarea-placeholder">Напишите ваш отзыв...</div>
+                </div>
+                <div class="reviews-footer">
+                  <div class="form-files">
+                    <div class="reviews-form__file"><input class="reviews-form__input" id="myfile" type="file" multiple="multiple"><label class="reviews-form__label" for="myfile"></label>
+                      <div class="reviews-form__placeholder reviews-form__placeholder--show">Прикрепить файлы<span class="reviews-form__explain-text">Jpg, png, gif, mp4 не более 15 Мб</span></div><span class="reviews-form__placeholder reviews-form__placeholder--more reviews-form__placeholder">Загрузить еще</span></div>
+                  </div><button class="reviews-form__button" type="submit">Отправить отзыв</button></div>
+              </form>
+            </div>
+          </article>
+        </section>
+        <aside class="aside aside-tutorial js-aside-click">
+          <div class="aside__item aside__item--active">Краткое обучение</div>
+          <div class="aside__item">Общая информация</div>
+          <div class="aside__item">Видео-уроки</div>
+          <div class="aside__item">Отзывы</div>
+        </aside>
+      </div>
+    </main>
+  </div>
+  <script type="text/javascript" src="./assets/js/vendors.f3e4da538cbd128ef786.js"></script>
+  <script type="text/javascript" src="./assets/js/app.f3e4da538cbd128ef786.js"></script>
+</body>
+
+</html>
